@@ -7,12 +7,12 @@ metadata:
     - python
 relations:
   - target:
-      kind: component
+      kind: Component
       namespace: default
       name: demo-b-sdk
     type: dependsOn
   - target:
-      kind: component
+      kind: Component
       namespace: default
       name: demo-c-sdk
     type: dependsOn

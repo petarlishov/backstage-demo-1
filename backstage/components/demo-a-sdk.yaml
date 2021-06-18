@@ -5,7 +5,7 @@ metadata:
   description: Demo SDK A
 relations:
   - target:
-      kind: component
+      kind: Component
       namespace: default
       name: demo-c-sdk
     type: dependsOn

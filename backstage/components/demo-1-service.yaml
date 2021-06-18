@@ -7,22 +7,22 @@ metadata:
     - java
 relations:
   - target:
-      kind: component
+      kind: Component
       namespace: default
       name: demo-a-sdk
     type: dependsOn
   - target:
-      kind: component
+      kind: Component
       namespace: default
       name: demo-b-sdk
     type: dependsOn
   - target:
-      kind: resource
+      kind: Resource
       namespace: default
       name: demo-1-db
     type: dependsOn
   - target:
-      kind: resource
+      kind: Resource
       namespace: default
       name: demo-1-cache
     type: dependsOn
