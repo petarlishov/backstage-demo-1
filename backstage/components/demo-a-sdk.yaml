@@ -8,3 +8,5 @@ spec:
   lifecycle: production
   owner: group:team-a
   system: demo-system
+  dependsOn:
+    - component:demo-c-sdk

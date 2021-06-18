@@ -10,3 +10,10 @@ spec:
   lifecycle: production
   owner: group:team-a
   system: demo-system
+  providesApis:
+    - demo-1-api
+  dependsOn:
+    - component:demo-a-sdk
+    - component:demo-b-sdk
+    - resource:demo-1-db
+    - resource:demo-1-cache

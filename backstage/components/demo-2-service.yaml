@@ -10,3 +10,6 @@ spec:
   lifecycle: production
   owner: group:team-b
   system: demo-system
+  dependsOn:
+    - component:demo-b-sdk
+    - component:demo-c-sdk
