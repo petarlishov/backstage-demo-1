@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: demo-repo
+  description: A collection of all Backstage demo components from this repo
+spec:
+  targets:
+    - ./apis/demo-1-api.yaml
+    - ./components/demo-1-service.yaml
+    - ./components/demo-2-service.yaml
+    - ./components/demo-a-sdk.yaml
+    - ./components/demo-b-sdk.yaml
+    - ./components/demo-c-sdk.yaml
+    - ./resources/demo-1-cache.yaml
+    - ./resources/demo-1-db.yaml
+    - ./syatems/demo-system.yaml

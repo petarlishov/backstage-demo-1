@@ -13,4 +13,4 @@ spec:
   lifecycle: production
   owner: group:team-a
   definition:
-    $text: https://github.com/petarlishov/backstage-demo-1/blob/main/backstage/apis/openapi.yaml
+    $text: ./openapi.yaml
