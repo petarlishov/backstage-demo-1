@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: demo-1-cache
+  description: Demo cache 1
+  tags:
+    - redis
+spec:
+  type: cache
+  owner: group:team-a
+  system: demo-system

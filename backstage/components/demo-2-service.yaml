@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-2-service
+  description: Demo 2 Service
+  tags:
+    - python
+relations:
+  - target: component:demo-b-sdk
+    type: dependsOn
+  - target: component:demo-c-sdk
+    type: dependsOn
+spec:
+  type: service
+  lifecycle: production
+  owner: group:team-b
+  system: demo-system

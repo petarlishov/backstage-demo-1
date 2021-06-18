@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-c-sdk
+  description: Demo SDK C
+spec:
+  type: library
+  lifecycle: production
+  owner: group:team-c
+  system: demo-system

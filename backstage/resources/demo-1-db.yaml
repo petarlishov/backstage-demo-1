@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: demo-1-db
+  description: Demo database 1
+  tags:
+    - mysql
+spec:
+  type: database
+  owner: group:team-a
+  system: demo-system
