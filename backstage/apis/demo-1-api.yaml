@@ -6,7 +6,9 @@ metadata:
   tags:
     - rest
 relations:
-  - target: component:demo-1-service
+  - target:
+      kind: component
+      name: demo-1-service
     type: apiProvidedBy
 spec:
   type: openapi

@@ -6,9 +6,13 @@ metadata:
   tags:
     - python
 relations:
-  - target: component:demo-b-sdk
+  - target:
+      kind: component
+      name: demo-b-sdk
     type: dependsOn
-  - target: component:demo-c-sdk
+  - target:
+      kind: component
+      name: demo-c-sdk
     type: dependsOn
 spec:
   type: service

@@ -4,7 +4,9 @@ metadata:
   name: demo-a-sdk
   description: Demo SDK A
 relations:
-  - target: component:demo-c-sdk
+  - target:
+      kind: component
+      name: demo-c-sdk
     type: dependsOn
 spec:
   type: library
