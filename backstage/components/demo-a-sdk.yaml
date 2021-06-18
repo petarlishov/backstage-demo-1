@@ -3,12 +3,6 @@ kind: Component
 metadata:
   name: demo-a-sdk
   description: Demo SDK A
-relations:
-  - target:
-      kind: Component
-      namespace: default
-      name: demo-c-sdk
-    type: dependsOn
 spec:
   type: library
   lifecycle: production

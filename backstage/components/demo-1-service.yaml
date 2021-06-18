@@ -5,27 +5,6 @@ metadata:
   description: Demo 1 Service
   tags:
     - java
-relations:
-  - target:
-      kind: Component
-      namespace: default
-      name: demo-a-sdk
-    type: dependsOn
-  - target:
-      kind: Component
-      namespace: default
-      name: demo-b-sdk
-    type: dependsOn
-  - target:
-      kind: Resource
-      namespace: default
-      name: demo-1-db
-    type: dependsOn
-  - target:
-      kind: Resource
-      namespace: default
-      name: demo-1-cache
-    type: dependsOn
 spec:
   type: service
   lifecycle: production

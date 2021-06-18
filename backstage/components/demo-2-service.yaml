@@ -5,17 +5,6 @@ metadata:
   description: Demo 2 Service
   tags:
     - python
-relations:
-  - target:
-      kind: Component
-      namespace: default
-      name: demo-b-sdk
-    type: dependsOn
-  - target:
-      kind: Component
-      namespace: default
-      name: demo-c-sdk
-    type: dependsOn
 spec:
   type: service
   lifecycle: production
