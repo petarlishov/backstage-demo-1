@@ -8,10 +8,12 @@ metadata:
 relations:
   - target:
       kind: component
+      namespace: default
       name: demo-b-sdk
     type: dependsOn
   - target:
       kind: component
+      namespace: default
       name: demo-c-sdk
     type: dependsOn
 spec:

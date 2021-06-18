@@ -8,6 +8,7 @@ metadata:
 relations:
   - target:
       kind: component
+      namespace: default
       name: demo-1-service
     type: apiProvidedBy
 spec:
