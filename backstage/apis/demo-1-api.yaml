@@ -9,5 +9,6 @@ spec:
   type: openapi
   lifecycle: production
   owner: group:team-a
+  system: demo-system
   definition:
     $text: ../../openapi.yaml
