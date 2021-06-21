@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: demo-2-service
   description: Demo 2 Service
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/petarlishov/backstage-demo-1
   tags:
     - python
 spec:
